@@ -6,18 +6,17 @@
     "random_wait_pages": [1, 5],
     "random_wait_seconds": [6, 10],
     "global_wait": [[1000, 3600], [500, 2000]],
-    "write_mode": ["csv", "txt"],
+    "write_mode": ["csv", "txt", "mongo"],
     "pic_download": 0,
     "video_download": 0,
 	"file_download_timeout": [5, 5, 10],
 	"result_dir_name": 0,
     "cookie": "SCF=AsFGs4xuCHgKbbnw4OgxyAuYASZ2CbOHKgwnUq6S5u-v_hF6S0pNwF24o_IWN1JrZTURf4e51H1FhK7ctiL-rLA.; SUB=_2A25NDIObDeRhGeVM71IR9C_Iwz6IHXVuDi3TrDV6PUJbktAKLXH6kW1NTLE3L3PK4DY0E_cLq2slMC48J_8uCUC5; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WFsaF4peYhnD48PrIrJwRUR5NHD95Q0eoB7ehBpShnEWs4Dqcjci--RiKLFiKyFi--NiK.ci-ihi--NiKLWiKnXi--Ni-2RiKyFi--fi-iWiKysi--fiK.piK.R; SSOLoginState=1611199435",
-    "mysql_config": {
-        "host": "localhost",
-        "port": 3306,
+    "mongo_config": {
+        "host": "129.211.188.250",
+        "port": 27017,
         "user": "root",
-        "password": "123456",
-        "charset": "utf8mb4"
+        "password": "wenhua521"
     },
     "kafka_config": {
         "bootstrap-server": "127.0.0.1:9092",
